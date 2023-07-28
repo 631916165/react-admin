@@ -1,0 +1,26 @@
+.denglu {
+    padding: 0;
+    margin: 0;
+    height: 100vh;//设置页面高度为视口高度，使容器铺满整个屏幕
+    display: flex;
+    justify-content: center;//将容器内容水平居中
+    align-items: center;//将容器内容垂直居中
+    background: url('../../assets/background.jpg');
+}
+.login {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    padding: 20px;
+    background-color: rgba(240, 240, 240, 0.2);//设置背景透明
+}
+
+.form {
+    display: flex;
+    flex-direction: column;//将表单元素垂直排列
+    align-items: center;//将表单元素内部内容垂直居中
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
